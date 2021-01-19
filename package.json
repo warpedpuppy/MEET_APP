@@ -1,0 +1,52 @@
+{
+    "name": "meet",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://warpedpuppy.github.io/MEET_APP",
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.11.5",
+        "@testing-library/react": "^11.1.2",
+        "@testing-library/user-event": "^12.2.2",
+        "atatus-spa": "^4.3.1",
+        "axios": "^0.21.0",
+        "nprogress": "^0.2.0",
+        "react": "^16.14.0",
+        "react-dom": "^16.14.0",
+        "react-scripts": "4.0.0",
+        "recharts": "^1.8.5",
+        "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "enzyme": "^3.11.0",
+        "enzyme-adapter-react-16": "^1.15.5",
+        "gh-pages": "^3.1.0",
+        "jest-cucumber": "^3.0.0",
+        "puppeteer": "^5.5.0"
+    }
+}
