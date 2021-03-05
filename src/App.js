@@ -182,13 +182,13 @@ class App extends Component {
 
           <ResponsiveContainer height={400}>
           <ScatterChart margin={{ top: 20, right: 20, bottom: 20, left: 20 }}>
-            <CartesianGrid strokeDasharray='3 3' />
+            <CartesianGrid />
 
             <XAxis type='category' dataKey='city' name='City'/>
             <YAxis type='number' dataKey='number' name='Number of Events' allowDecimals={false}/>
 
             <Tooltip/>
-            <Scatter data={this.getData()} fill='#ea21a2' />
+            <Scatter data={this.getData()} fill='#ea21a2'/>
           </ScatterChart>
           </ResponsiveContainer>
 
